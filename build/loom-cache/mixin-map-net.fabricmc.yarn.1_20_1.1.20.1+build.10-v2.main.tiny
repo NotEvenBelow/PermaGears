@@ -1,0 +1,5 @@
+v1	named	intermediary
+FIELD	permagears/mixin/PlayerAdvancementsMixin	Lnet/minecraft/server/network/ServerPlayerEntity;	owner	field_13391
+METHOD	permagears/mixin/ItemStackMixin	()Lnet/minecraft/nbt/NbtCompound;	getOrCreateNbt	method_7948
+METHOD	permagears/mixin/ItemStackMixin	()Lnet/minecraft/nbt/NbtCompound;	getNbt	method_7969
+METHOD	permagears/mixin/ItemStackMixin	()Lnet/minecraft/item/Item;	getItem	method_7909

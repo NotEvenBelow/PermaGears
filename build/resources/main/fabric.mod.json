@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "permagears",
+  "version": "1.0.0",
+  "name": "PermaGears",
+  "description": "A lightweight Fabric mod that makes certain tools or items permanently unbreakable through a config.",
+  "authors": [ "NotEvenBelow" ],
+  "license": "LGPL-3.0-only",
+  "icon": "assets/permagears/icon.png",
+
+  "entrypoints": {
+    "main": [ "permagears.PermaGears" ]
+  },
+
+  "mixins": [
+    "permagears.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.16.4",
+    "minecraft": "~1.20.1",
+    "fabric": "",
+    "java": ">=17"
+  },
+
+  "suggests": {
+    "cloth-config2": "",
+    "modmenu": "*"
+  },
+
+  "contact": {
+    "homepage": "https://modrinth.com/mod/perma-gears",
+    "issues": "https://github.com/NotEvenBelow/PermaGears/issues"
+  }
+}

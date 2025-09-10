@@ -1,0 +1,42 @@
+{
+  "mappings": {
+    "permagears/mixin/ItemEntityAccessor": {
+      "itemAge": "field_7204:I"
+    },
+    "permagears/mixin/ItemEntityMixin": {
+      "damage(Lnet/minecraft/entity/damage/DamageSource;F)Z": "Lnet/minecraft/class_1542;method_5643(Lnet/minecraft/class_1282;F)Z"
+    },
+    "permagears/mixin/ItemStackMixin": {
+      "<init>(Lnet/minecraft/item/ItemConvertible;)V": "Lnet/minecraft/class_1799;<init>(Lnet/minecraft/class_1935;)V",
+      "<init>(Lnet/minecraft/item/ItemConvertible;I)V": "Lnet/minecraft/class_1799;<init>(Lnet/minecraft/class_1935;I)V"
+    },
+    "permagears/mixin/PlayerAdvancementsMixin": {
+      "grantCriterion": "Lnet/minecraft/class_2985;method_12878(Lnet/minecraft/class_161;Ljava/lang/String;)Z"
+    },
+    "permagears/mixin/PlayerEntityMixin": {
+      "dropItem(Lnet/minecraft/item/ItemStack;Z)Lnet/minecraft/entity/ItemEntity;": "Lnet/minecraft/class_1657;method_7328(Lnet/minecraft/class_1799;Z)Lnet/minecraft/class_1542;",
+      "dropItem(Lnet/minecraft/item/ItemStack;ZZ)Lnet/minecraft/entity/ItemEntity;": "Lnet/minecraft/class_1657;method_7329(Lnet/minecraft/class_1799;ZZ)Lnet/minecraft/class_1542;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "permagears/mixin/ItemEntityAccessor": {
+        "itemAge": "field_7204:I"
+      },
+      "permagears/mixin/ItemEntityMixin": {
+        "damage(Lnet/minecraft/entity/damage/DamageSource;F)Z": "Lnet/minecraft/class_1542;method_5643(Lnet/minecraft/class_1282;F)Z"
+      },
+      "permagears/mixin/ItemStackMixin": {
+        "<init>(Lnet/minecraft/item/ItemConvertible;)V": "Lnet/minecraft/class_1799;<init>(Lnet/minecraft/class_1935;)V",
+        "<init>(Lnet/minecraft/item/ItemConvertible;I)V": "Lnet/minecraft/class_1799;<init>(Lnet/minecraft/class_1935;I)V"
+      },
+      "permagears/mixin/PlayerAdvancementsMixin": {
+        "grantCriterion": "Lnet/minecraft/class_2985;method_12878(Lnet/minecraft/class_161;Ljava/lang/String;)Z"
+      },
+      "permagears/mixin/PlayerEntityMixin": {
+        "dropItem(Lnet/minecraft/item/ItemStack;Z)Lnet/minecraft/entity/ItemEntity;": "Lnet/minecraft/class_1657;method_7328(Lnet/minecraft/class_1799;Z)Lnet/minecraft/class_1542;",
+        "dropItem(Lnet/minecraft/item/ItemStack;ZZ)Lnet/minecraft/entity/ItemEntity;": "Lnet/minecraft/class_1657;method_7329(Lnet/minecraft/class_1799;ZZ)Lnet/minecraft/class_1542;"
+      }
+    }
+  }
+}
